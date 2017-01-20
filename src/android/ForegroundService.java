@@ -45,7 +45,7 @@ import java.lang.reflect.Method;
 public class ForegroundService extends Service {
 
     // Fixed ID for the 'foreground' notification
-    public static final int NOTIFICATION_ID = -574543954;
+    public static final int NOTIFICATION_ID = 13;
 
     // Binder given to clients
     private final IBinder mBinder = new ForegroundBinder();
